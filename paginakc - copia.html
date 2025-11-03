@@ -1,0 +1,274 @@
+
+mi-pagina/
+   ├── index.html
+   ├── style.css
+   └── script.js
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dulce Encanto - Catálogo</title>
+  <style>
+    :root {
+      --color-principal: #b57edc;
+      --color-secundario: #e6b0ff;
+      --color-oscuro: #8e44ad;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #f8f5fb;
+      color: #333;
+    }
+
+    header {
+      background-color: var(--color-principal);
+      color: white;
+      text-align: center;
+      padding: 30px 10px;
+    }
+
+    nav {
+      background-color: var(--color-oscuro);
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 1200px;
+      margin: 30px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: var(--color-oscuro);
+      border-bottom: 3px solid var(--color-principal);
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .producto {
+      background-color: #fafafa;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .producto:hover {
+      transform: scale(1.03);
+    }
+
+    .producto img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .producto h3 {
+      margin: 10px 0 5px;
+      color: var(--color-oscuro);
+    }
+
+    .producto p {
+      padding: 0 10px;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .precio {
+      color: var(--color-principal);
+      font-size: 18px;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    footer {
+      background-color: var(--color-oscuro);
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+
+
+
+  <header>
+<div class="header">
+    <img src=https://i.imgur.com/nj74dyK.png alt="Logo" class="logo">
+
+
+    <h1>KITTY COOKIES</h1>
+    <p>Galletas • Brownies • Cuchareables</p>
+  </header>
+
+  <nav>
+    <a href="#galletas">Galletas</a>
+    <a href="#brownies">Brownies</a>
+    <a href="#cuchareables">Cuchareables</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <main>
+    <!-- GALLETAS -->
+  <section id="galletas">
+  <h2>Galletas</h2>
+  <div class="productos">
+
+    <div class="producto">
+      <img src="https://via.placeholder.com/300x200?text=Galleta+1" alt="Galleta 1">
+      <h3>Santa´s Cookie</h3><div>Galleta de chocolate con chips de chocolate blanco, rellena de 1 oreo navideña y Nutella.</div>
+      <p class="precio">$6.000</p>
+    </div>
+
+    <div class="producto">
+      <img src="https://i.imgur.com/ZtC6Dvo.jpeg" <h3="">Galleta Oreo Arequipe
+      <p>Galleta de vainilla con trozos de oreo, chips de chocolate blanco, rellena de arequipe.</p>
+      <p class="precio">$6.000</p>
+    </div>
+
+    <div class="producto">
+      <img src="https://i.imgur.com/HpvBQHA.jpeg" <h3="">Galleta Red Velvet
+      <p>Galleta de masa roja, con chips de chocolate blanco, rellena de crema cheescake.</p>
+      <p class="precio">$6.000</p>
+    </div>
+
+    <div class="producto">
+      <img src="https://i.imgur.com/GFjVM5I.jpeg" <h3="">Birthday Cookie
+      <p>Galleta de vainilla, con sprinkles y chips de chocolate blanco, rellena de ganache de chocolate blanco.</p>
+      <p class="precio">$6.000</p>
+    </div>
+
+    <div class="producto">
+      <img src="https://i.imgur.com/VZmORK0.jpeg" <h3="">Galleta de Nutella
+      <p>Galleta de vainilla con chips de chocolate semiamargo, rellena de Nuella</p>
+      <p class="precio">$6.000</p>
+    </div>
+
+    <div class="producto">
+      <img src="https://i.imgur.com/l9kH8Br.jpeg" <h3="">Galleta Lemon Pie
+      <p>Galleta de limón, con chips de chocolate blanco y ducales, rellena de crema de limón.</p>
+      <p class="precio">$6.000</p>
+    </div>
+
+    <div class="producto">
+      <img src="https://i.imgur.com/orus6gw.jpeg" <h3="">Galleta ChocoAlmendra
+      <p>Galleta sabor almendra, con chips de chocolate semiamargo y almendras picadas, rellena de Nutella.</p><p><span style="font-size: 14px; font-weight: bold;">$6.000</span></p>
+    </div>
+
+    <div class="producto">
+      <img src="https://i.imgur.com/w7Smamf.jpeg" <h3="">Galleta Pinguino
+      <p>Galleta de chocolate, con chips de chocolate blanco, y cobertura de chocolate.</p>
+      <p class="precio">$6.000</p>
+    </div>
+
+    <div class="producto">
+      <img src="https://i.imgur.com/jjfale3.jpeg" <h3="">Galleta Nucita<h3><span style="color: rgb(85, 85, 85); font-size: 14px;">Galleta de vainilla y chocolate, con chips de chocolate blanco y semiamargo, rellena de Nucita.</span></h3>
+      <p class="precio">$6.000</p>
+    </div>
+
+    <div class="producto">
+      <img src="https://via.placeholder.com/300x200?text=Galleta+10" alt="Galleta 10">
+      <h3>Mini galletas x10</h3>
+      <p>Caja de 10 mini galletas surtidas con los sabores de tu elección.</p>
+      <p class="precio">$28.000</p>
+    </div>
+
+    <div class="producto">
+      <img src="https://i.imgur.com/BNtv6BO.jpeg" <h3="">Caja x6 galletas
+      <p>Caja de 6 galletas surtidas con los sabores de tu elección.</p>
+      <p class="precio">$30.000</p>
+    </div>
+
+  </div>
+</section>
+
+
+    <!-- BROWNIES -->
+    <section id="brownies">
+      <h2>Brownies</h2>
+      <div class="productos">
+        <div class="producto">
+          <img src="https://i.imgur.com/vaciLL1.jpeg&quot;" alt="Brownie clásico">
+          <h3>Brownies medianos</h3>
+          <p>Caja x6 brownies medianos con toppings de tu elección.</p>
+          <p class="precio">$24.000</p>
+        </div>
+        <div class="producto">
+          <img src="https://i.imgur.com/kNEx1bJ.jpegalt=&quot;Brownie" con="" nuez"="">
+          <h3>Mini Brownies</h3>
+          <p>Caja x6 mini brownies con toppings a tu elección.</p>
+          <p class="precio">$15.000</p>
+        </div>
+        <div class="producto">
+         
+          <h3>TOPPINGS</h3>
+          <p>NUTELLA</p><p>AREQUIPE</p><p>OREO</p><p>PIAZZA</p><p>JET</p><p>CHIPS BLANCOS</p><p>CHIPS SEMIAMARGOS</p><p>HERSHEY´S</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CUCHAREABLES -->
+    <section id="cuchareables">
+      <h2>Cuchareables</h2>
+      <div class="productos">
+        <div class="producto">
+          <img src="https://i.imgur.com/QwG7pXQ.jpegalt=&quot;Mousse" de="" chocolate"="">
+          <h3>Oreo Nutella</h3>
+          <p>Cuchareable con torta de vainilla, crema blanca, trozos de oreo y Nutella.</p>
+          <p class="precio">$12.000</p>
+        </div>
+        <div class="producto">
+          <img src=https://i.imgur.com/B7rPSNJ.jpeg
+alt="Cheesecake en vaso">
+          <h3>Choco Bloom</h3>
+          <p>Cuchareable de brownie con crema blanca y fresas.</p>
+          <p class="precio">$12.000</p>
+        </div>
+        <div class="producto">
+          <img src=https://i.imgur.com/QY8pb0X.jpeg
+alt="Crema de café">
+          <h3>Morita Fresita</h3>
+          <p>Cuchareable con torta de vanilla, mermelada casera de frutos rojos y crema blanca.</p>
+          <p class="precio">$12.000</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>📧 <strong>3124437833</strong></p>
+      <p>📷 Instagram: <a href="#" target="_blank">@</a>kitty.cookiesbga</p>
+      <p>📘 Facebook: <a href="#" target="_blank">K</a>itty Cookies</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Kitty Cookies | Todos los derechos reservados</p>
+  </footer>
+
